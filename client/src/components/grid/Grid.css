@@ -1,0 +1,44 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(10, 50px);
+    grid-template-rows: repeat(10, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    border: 2px solid #CCC;
+}
+
+.grid div {
+    height: 50px;
+    border: 1px solid #EEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.predefined-button {
+    
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.buttons button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    font-size: 24px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 4px 4px #ccc;
+    color: black;
+}
+
+.buttons button:hover {
+    cursor: pointer;
+}

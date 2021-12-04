@@ -1,0 +1,12 @@
+div.color-picker {
+    position: absolute;
+    border: none !important;
+    
+}
+
+.color-picker canvas {
+    border: 10px solid #FFF;
+    border-radius: 8px;
+    box-shadow: 12px 12px 12px #333;
+}
+

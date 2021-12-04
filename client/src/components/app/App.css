@@ -1,0 +1,41 @@
+body {
+    background: rgb(247,254,255);
+    background: linear-gradient(90deg, rgba(247,254,255,1) 0%, rgba(255,255,255,1) 100%);
+        
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.app-name {
+    text-shadow: 4px 4px 0px #00e7ff;
+    position: relative;
+    color: #333;
+    letter-spacing: .2rem;
+    font-size: 6rem;
+    margin: 0.5rem;
+}
+
+.app-name:before {
+    content: 'Pixel Art';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    text-shadow: 8px 8px 0px #00ff14;
+}
+
+.app-name:after {
+    content: 'Pixel Art';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    text-shadow: 12px 12px 0px yellow;
+}
